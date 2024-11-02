@@ -20,6 +20,6 @@ setup(
     version='0.0.1',
     author='SidhiGupta',
     author_email='guptasidhi159@gmail.com',
-    packages=find_packages(),
+    packages=find_packages(),  # This is used and we made a src folder with __init__.py file so that all the project is used as a package itself.
     intstall_requires=get_requirements('requirements.txt')
 )
