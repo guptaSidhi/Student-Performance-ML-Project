@@ -1,5 +1,6 @@
 import sys # It will control all the changes in the enviornment
 import logging
+import logger
 
 # This is a function which is just helping us to get the exact exception
 def error_message_detail(error,error_detail:sys):
